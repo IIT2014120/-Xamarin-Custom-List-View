@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="100"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="First Name"
+        android:layout_width="match_parent"
+        android:layout_weight="25"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFirstName"
+        android:paddingTop="5dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp" />
+    <TextView
+        android:text="Last Name"
+        android:layout_width="match_parent"
+        android:layout_weight="25"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLastName"
+        android:paddingTop="5dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp" />
+    <TextView
+        android:text="Age"
+        android:layout_width="match_parent"
+        android:layout_weight="25"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAge"
+        android:paddingTop="5dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp" />
+    <TextView
+        android:text="Gender"
+        android:layout_width="match_parent"
+        android:layout_weight="25"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGender"
+        android:paddingTop="5dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp" />
+</LinearLayout>
